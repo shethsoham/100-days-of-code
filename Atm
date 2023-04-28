@@ -1,0 +1,71 @@
+class Atm :
+
+    #function vs method
+    def __int__(self):
+        self.pin =""
+        self.balance =0
+        self.menu()
+
+    def menu(self):
+
+        self.pin = ""
+        self.balance = 0
+        self.menu()
+
+    def menu(self):
+        user_input = input ("""
+        Hello, how would you like to proceed ?
+        1.Enter to create pin
+        2.Enter to deposit
+        3.Enter to withdraw
+        4.Enter to check balance
+        5.Enter to exit 
+        """)
+        #gui = graphical user interface
+
+        if user_input == "1":
+            print("create pin")
+        elif user_input == "2":
+            print("withdraw")
+        elif user_input == "3":
+            print("deposit")
+        elif user_input == "4":
+            print("balance")
+        else :
+            print("bye")
+
+
+
+    def create_pin(self):
+            self.pin = input("enter your pin")
+            print("pin set successfully")
+
+    def deposit(self):
+        temp = input("emter your pin")
+        if temp == self.pin :
+            amount = int(input("Enter the amount"))
+            self.balance = self.balance + amount
+            print("Deposit Successful")
+        else:
+            print("Invalid Pin")
+
+    def withdraw(self):
+        temp = input("Enter your pin")
+        if temp == self.pin :
+            amount = int(input("enter the amount"))
+            if amount < self.blance :
+                self.balance = self.balance - amount
+                print("Operation successful")
+            else:
+                print("Invalid pin")
+
+        else :
+
+            print ("invalid pin")
+
+    def check_balance(self):
+        temp = input ("enter your pin ")
+        if temp == self.pin :
+            print(self.balance)
+        else:
+            print("Invalid Pin")
