@@ -1,2 +1,0 @@
-#type error
-#type casting 
