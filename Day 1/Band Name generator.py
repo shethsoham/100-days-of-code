@@ -12,3 +12,14 @@ print(pet_name)
 print(city_name + pet_name )
 #5. Make sure the input cursor shows on a new line:
 # Solution: https://replit.com/@appbrewery/band-name-generator-endsoham
+
+'''
+10 June 2024
+'''
+
+
+print("Hello welcome the project named band name generator")
+user_city = input("What is the name of the city you grew up in?\n")
+user_pet = input("What is the name of your pet?\n")
+band_name = user_city + ""+ user_pet
+print("your band name is ",band_name)
