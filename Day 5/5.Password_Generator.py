@@ -18,20 +18,20 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 
+#Getting 4 random letters
 random_letters=random.sample(letters, nr_letters)
-
 a = ""
 for let in random_letters  :
   
   a = let + "" + a
 
-
+#Getting 2 random symbol
 random_symbols=random.sample(symbols, nr_symbols)
 b= ""
 for sym in random_symbols  :
   b=sym+ "" +b
 
-
+#Getting 2 numbers
 random_numbers=random.sample(numbers, nr_numbers)
 c=""
 for num in random_numbers  :

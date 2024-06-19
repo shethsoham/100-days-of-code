@@ -29,7 +29,7 @@ step1 = input("Which step would you like to go ? Left or Right").lower()
 
 
 if (step1 == "left") :
-  print("What you want to chooose SWIM OR WAIT ?")
+  print("What you want to chooose SWIM OR WAIT  ?")
   step2 = input(" ").lower()
   if (step2 == "wait") :
     print("WHICH DOOR YOU WANT TO CHOOSE, RED, BLUE OR YELLOW ?")

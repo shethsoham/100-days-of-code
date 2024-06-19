@@ -1,6 +1,6 @@
 #Python List 
 
-#List is a datastructure , List is a array. 
+#List is a datastructure ,  List is a array. 
 
 # Variable is also a data structure where it is just storing a one piece of number or character 
 #a = 3

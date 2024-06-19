@@ -10,7 +10,7 @@ names = names_string.split(", ")
 
 length = len(names)
 lenght = length - 1
-random_number = random.randint(0,length)
+random_number = random.randint(0,lenght)
 
 print(names[random_number] + " is going to buy the meal today!")
 

@@ -6,7 +6,7 @@ random_integer = random.randint(1,10)
 print(random_integer)
 
 #What is module
-#Random module 
+#Random module . 
 
 print(my_module.pi)
 

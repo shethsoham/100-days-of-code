@@ -5,5 +5,5 @@ for i in array:
     if i > max :
         max = i
     
-print("max number is",max)
+print("max number in an array is",max)
    
