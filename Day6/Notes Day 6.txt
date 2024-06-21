@@ -1,0 +1,51 @@
+#Functions, Code blocks and While loops
+
+#Karel the robot
+
+
+1 st concept  - Functions 
+
+Build-In functions 
+
+len()
+sort()
+int()
+print()
+input()
+range()
+sum()
+float()
+chr()
+range()
+
+etc
+
+All function work preety much same 
+print("Hello")
+len("Hello")
+
+How to make our own function ?
+
+We can create it using a keyword 
+
+--------------------------------------------------------
+#Defining the function
+def my_function():
+    first do this 
+    then do this 
+    finally do this 
+
+
+() means parenthesis
+
+#Calling the function 
+
+my_funtion()
+---------------------------------------------------------
+
+while loop synteax
+something_is_true means is a condition.
+while something_is_true :
+    #Do this
+    #Then do this 
+    #The do this
