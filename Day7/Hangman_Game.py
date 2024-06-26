@@ -13,7 +13,7 @@
 
 
 import random # Importing random variable 
-words = ['Apple', 'Mobile', 'Indians'] # Created a imaginary array of 3 words
+words = ['Apple', 'Mobile', 'Indians', 'American'] # Created a imaginary array of 3 words
 word = random.choice(words) # used random method and choosed 1 word from array
 word = word.lower() # lower cased all the words which would get selected 
 print(word) # After you have finally build the game delete this statement should not be visible to the player 
