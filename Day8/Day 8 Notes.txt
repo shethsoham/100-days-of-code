@@ -1,0 +1,16 @@
+Functions with parameters and arguments
+
+#function which allows the input
+
+def greet_with_name(name):
+    print(f"Hello ")
+    print(f"Hello do you do {name}")
+
+greet_with_name("Soham")
+
+'''
+Here 
+name is parameter (Variable)
+and 
+Soham is the argument (value)
+'''

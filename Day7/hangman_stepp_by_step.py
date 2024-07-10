@@ -1,9 +1,9 @@
 #Hangman step by step
 import random
-words = ['apple','orange','watermelon']
-random_word = random.choice(words)
+from hangman_words import word_list
+random_word = random.choice(word_list)
 #guess_letter = input("Guess the letter").lower()
-print("Random guessed word is ",random_word)
+
 length = len(random_word)
 
 initial_list = []
@@ -15,7 +15,7 @@ print(initial_list)
 end_of_game = False
 lives = 6
 while not end_of_game:
-    guess_letter = input("Guess the letter").lower()
+    guess_letter = input("Guess the letter ").lower()
    
     for single_letter in range(0,length):
         if guess_letter == random_word[single_letter]:
@@ -28,9 +28,11 @@ while not end_of_game:
         if lives == 0:
             end_of_game = True
             print("You loose")
+            print("Random guessed word was ",random_word)
     if "_" not in initial_list:
         end_of_game = True
         print("You won")
+        print("Random guessed word was ",random_word)
 
     
     
